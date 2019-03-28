@@ -55,9 +55,9 @@
     
     
     <entry>
-      <title>Về tôi</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>Chuyên mục</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -66,9 +66,9 @@
     
     
     <entry>
-      <title>Chuyên mục</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>Về tôi</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
