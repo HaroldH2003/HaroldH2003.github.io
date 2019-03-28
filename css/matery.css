@@ -25,14 +25,6 @@
         margin: 0 auto;
         max-width: 1250px;
     }
-
-    .header .brand-logo .logo-span {
-    font-size: 0.5rem;
-    }
-
-    .bg-cover .title {
-    font-size: 1.5rem
-    }
 }
 
 body {
@@ -226,7 +218,7 @@ header .brand-logo .logo-img {
 }
 
 header .brand-logo .logo-span {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 header .button-collapse i {
