@@ -4,8 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Chuyên mục, Công nghệ, Technology, Xàm, Blog">
-    <meta name="description" content="Chuyên mục | Harold Talks Tech">
+    <meta name="keywords" content="Tag: phương tiện cá nhân, Công nghệ, Technology, Xàm, Blog">
+    <meta name="description" content="Tag: phương tiện cá nhân | Harold Talks Tech">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Chuyên mục | Harold Talks Tech</title>
+    <title>Tag: phương tiện cá nhân | Harold Talks Tech</title>
     <link rel="icon" type="image/png" href="/medias/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -205,31 +205,93 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
     
 
-<div id="category-cloud" class="container chip-container">
+<div id="tags" class="container chip-container">
     <div class="card">
         <div class="card-content">
             <div class="tag-title center-align">
-                <i class="fa fa-bookmark"></i>&nbsp;&nbsp;Danh mục bài viết
+                <i class="fa fa-tags"></i>&nbsp;&nbsp;Tags bài viết
             </div>
             <div class="tag-chips">
                 
                 
-                
-                <a href="/categories/Xe-chay-dien/" title="Xe chạy điện: 1">
+                <a href="/tags/phuong-tien-ca-nhan/" title="phương tiện cá nhân: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default " style="background-color: #F9EBEA;">Xe chạy điện
+                             chip-active " data-tagname="phương tiện cá nhân" style="background-color: #F9EBEA;">phương tiện cá nhân
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Di-dong/" title="Di động: 1">
+                <a href="/tags/xe-dien/" title="xe điện: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default " style="background-color: #F5EEF8;">Di động
+                             chip-default " data-tagname="xe điện" style="background-color: #F5EEF8;">xe điện
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
+                
+                <a href="/tags/tuong-lai/" title="tương lai: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="tương lai" style="background-color: #D5F5E3;">tương lai
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Honda/" title="Honda: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="Honda" style="background-color: #E8F8F5;">Honda
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/man-hinh-gap/" title="màn hình gập: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="màn hình gập" style="background-color: #FEF9E7;">màn hình gập
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/smartphones/" title="smartphones: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="smartphones" style="background-color: #F8F9F9;">smartphones
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Apple/" title="Apple: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="Apple" style="background-color: #82E0AA;">Apple
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Samsung/" title="Samsung: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="Samsung" style="background-color: #D7BDE2;">Samsung
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Huawei/" title="Huawei: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="Huawei" style="background-color: #A3E4D7;">Huawei
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Motorola/" title="Motorola: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="Motorola" style="background-color: #85C1E9;">Motorola
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
                 
             </div>
         </div>
@@ -237,64 +299,45 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 </div>
 
     
-    <style type="text/css">
-    #category-radar {
-        width: 100%;
-        height: 360px;
-    }
-</style>
 
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="category-radar" class="card-content"></div>
-    </div>
-</div>
-
-<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
-<script type="text/javascript">
-    let radarChart = echarts.init(document.getElementById('category-radar'));
-
-    
-
-    let option = {
-        title: {
-            left: 'center',
-            text: 'Biểu đồ Radar',
-            textStyle: {
-                fontWeight: 500,
-                fontSize: 22
-            }
-        },
-        tooltip: {},
-        radar: {
-            name: {
-                textStyle: {
-                    color: '#3C4858'
-                }
-            },
-            indicator: [{"name":"Xe chạy điện","max":2},{"name":"Di động","max":2}],
-            nameGap: 5,
-            center: ['50%','55%'],
-            radius: '66%'
-        },
-        series: [{
-            type: 'radar',
-            color: ['#3ecf8e'],
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data : [
-                {
-                    value : [1,1],
-                    name : 'Number of Categories'
-                }
-            ]
-        }]
-    };
-
-    radarChart.setOption(option);
-</script>
-    
-
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            
+            <div class="article tag-post col s12 m6 l4 overflow-policy" data-tags="phương tiện cá nhân, xe điện, tương lai, Honda" data-aos="fade-up">
+                <div class="card">
+                    <a href="/2019/03/29/Honda_EVs/">
+                        <div class="card-image tag-image">
+                            
+                            <img src="https://d2t6ms4cjod3h9.cloudfront.net/wp-content/uploads/2019/02/honda-e-prototype-1-1920.jpg" class="responsive-img" alt="Honda và Xe Chạy Điện: Quá khứ - Hiện tại - Tương lai">
+                            
+                            <span class="card-title">Honda và Xe Chạy Điện: Quá khứ - Hiện tại - Tương lai</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-03-29
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Xe-chay-dien/" class="post-category" target="_blank">
+                                Xe chạy điện
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </article>
 </main>
+
 
 <footer class="page-footer bg-color">
     <div class="container row center-align">
