@@ -1,5 +1,24 @@
 /* Here is your custom css styles. */
+@media only screen and (max-width: 900px) {
+    iframe {
+    width: 600px;
+    height: 380px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    iframe {
+    width: 535px;
+    height: 310px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
+
+    iframe {
+    width: 415px;
+    height: 205px;
+    }
 
     header .brand-logo .logo-span {
     font-size: 1.5rem;
@@ -14,13 +33,18 @@
     height: 38px;
     }
 
-    .bg-cover .title {
-    font-size: 2.8rem
+    .bg-cover .post-title {
+    font-size: 2.5rem
     }
 
 }
 
 @media only screen and (max-width: 440px) {
+
+    iframe {
+    width: 325px;
+    height: 145px;
+    }
 
     header .brand-logo .logo-span {
     font-size: 1.2rem;
@@ -31,14 +55,39 @@
     height: 35px;
     }
 
-    .bg-cover .title {
-    font-size: 2.5rem;
+    .bg-cover .post-title {
+    font-size: 1.8rem;
     }
 
     nav .brand-logo {
     font-size: 0!important;
     }
 
+}
+
+@media only screen and (max-width: 350px) {
+
+    iframe {
+    width: 275px;
+    height: 125px;
+    }
+
+    header .brand-logo .logo-span {
+    font-size: 1rem;
+    padding-left: 5px!important;
+    }
+
+    header .brand-logo .logo-img {
+    height: 30px;
+    }
+
+    .bg-cover .post-title {
+    font-size: 1.4rem;
+    }
+
+    nav .brand-logo {
+    font-size: 0!important;
+    }
 }
 
     
